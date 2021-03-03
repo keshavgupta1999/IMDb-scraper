@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <style>
+      main {
+        margin-top: 2em;
+      }
+      body{
+        background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dGhlYXRyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80') ;
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%; 
+      }
+      img{
+        height: auto;
+        width: auto;
+      }
+      form{
+        margin-top: 150px;
+      }
+      label{
+        font-size: 30px;
+        font: outline;
+        font-feature-settings: "aalt";
+        font-variant-numeric: normal;
+        font-weight: bold;
+        font-style:oblique;
+        color: rgb(215, 226, 220);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <img src="https://banner2.cleanpng.com/20180320/shw/kisspng-computer-wallpaper-text-brand-yellow-imdb-5ab0b9396e5905.781549981521531193452.jpg" style="width: 150px;height: 150px ; background-attachment: fixed;background-repeat: no-repeat;">
+      <form>
+        <fieldset class="form-group">
+          <label for="search">Search</label>
+          <input type="text" class="form-control" id="search" placeholder="Search for a movie">
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <ul class="list-group" id="results">
+      </ul>
+    </main>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
